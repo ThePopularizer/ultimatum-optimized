@@ -14,7 +14,7 @@ function child_scripts() {
 add_action( 'wp_enqueue_scripts', 'child_scripts' );
 
 /** Optimize Ultimatum 
-Remove the two lines per asset, where you would like to keep those assets. 
+Remove or comment the two lines per asset, where you would like to keep those assets. 
 Each asset is registered with 'false' value to prevent other assets dependent on them from not loading. **/
 
 function deregister_ultimatum_assets() {
