@@ -21,26 +21,28 @@ function deregister_ultimatum_assets() {
 		/* Remove CSS Styles */
 		wp_deregister_style( 'open-sans' ); /* WordPress default */
 		wp_register_style( 'open-sans', false );
-		wp_deregister_style( 'ult-fawesome' ); /* FontAwesome */
+		wp_deregister_style( 'ult-fawesome' ); /* Font Icons */
 		wp_register_style( 'ult-fawesome', false );
 		wp_deregister_style( 'prettyphoto' ); /* Modal popup windows */
 		wp_register_style( 'prettyphoto', false );
-		wp_deregister_style( 'social-icon-font' ); 
+		wp_deregister_style( 'social-icon-font' ); /* Font Icons */
 		wp_register_style( 'social-icon-font', false );
-		wp_deregister_style( 'ult-sliders' ); 
+		wp_deregister_style( 'ult-sliders' ); /* Ultimatum Sliders */
 		wp_register_style( 'ult-sliders', false );
-		wp_deregister_style( 'ult-menus' ); 
+		wp_deregister_style( 'ult-menus' ); /* Ultimatum Menus */
 		wp_register_style( 'ult-menus', false );
 		/* Remove Scripts */
 		wp_deregister_script( 'bootstrap' ); /* Responsive framework */
 		wp_register_script( 'bootstrap', false );
-		wp_deregister_script( 'jquery-fitvids' ); 
+		wp_deregister_script( 'stellar-js' ); /* Parallax effect */
+		wp_register_script( 'stellar-js', false );
+		wp_deregister_script( 'jquery-fitvids' ); /* Responsive videos */
 		wp_register_script( 'jquery-fitvids', false );
-		wp_deregister_script( 'jquery-prettyphoto' ); 
+		wp_deregister_script( 'jquery-prettyphoto' ); /* Modal popup windows */
 		wp_register_script( 'jquery-prettyphoto', false );
 		wp_deregister_script( 'holder' ); /* Generates image placeholders */ 
 		wp_register_script( 'holder', false );
-		wp_deregister_script( 'ultimatum-js' ); /* Generates overlays in galleries */
+		wp_deregister_script( 'ultimatum-js' ); /* Currently generates overlays in galleries */
 		wp_register_script( 'ultimatum-js', false );
 	}
 
