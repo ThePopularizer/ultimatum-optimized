@@ -30,3 +30,17 @@ Version:        0.1.0
 
 @media (min-width: 479px) {}
 @media (max-width: 479px) {}
+
+
+
+/* Changes to Ultimatum Interface for Optimized Workflow */
+
+.ultimatum-css-customizer  {
+	overflow: scroll;
+	border-top: 2px solid #ccc;
+	background: white; 
+	background: rgba(255,255,255,0.7);
+}
+.ultimatum-css-customizer .CodeMirror {
+	background: transparent;
+}
